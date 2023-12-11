@@ -81,3 +81,25 @@ margin-bottom: 10px;
  cursor: pointer;
  font-weight: 500;
 }
+
+@media only screen and (max-width: 1000px) {
+.listWrapper{
+    width: 100%;
+    max-width: 924px;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+.listWrapper{
+    width: 100%;
+    max-width: 924px;
+    display: flex;
+    flex-direction: column;
+}
+
+.listSearch {
+    position: unset;
+}
+
+}

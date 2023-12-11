@@ -109,3 +109,32 @@ font-weight: 500;
   cursor: pointer;
   border-radius: 5px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .ResultContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    }
+   .Description {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      flex: 2 1;
+    }
+
+    .detailPrice {
+      font-size: 24px;
+      text-align: center;
+   }
+
+   .ResultImg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+}
