@@ -148,3 +148,36 @@
     color: lightgray;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 800px) {
+
+ .ImagesBox {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.HotelImages {
+    width: 100%;
+    display: flex;
+}
+
+.HotelDetails {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px 20px;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+ .ImagesBox {
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+}
+.HotelImages {
+    width: 100%;
+    display: flex;
+}
+}
