@@ -1,0 +1,58 @@
+.Psect{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+
+.PsectItem{
+ flex: 1 1;
+ gap: 10px;
+ display: flex;
+ flex-direction: column;
+}
+
+.PsectImg{
+    width: 100%;
+    object-fit: cover;
+}
+
+.FpName{
+ font-weight: bold;
+}
+
+.FpCity{
+ font-weight: 300;
+}
+
+.FpPrice {
+    font-weight: 500;
+}
+
+.pRating > button{
+background-color: #003580;
+color: #fff;
+border:none;
+padding: 3px;
+margin-right: 10px;
+font-weight: bold;
+}
+
+.pRating>span {
+   font-size: 14px;
+}
+
+@media screen and (max-width: 700px) {
+ .Psect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+}
+

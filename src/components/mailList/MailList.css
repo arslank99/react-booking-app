@@ -1,0 +1,41 @@
+.mailList{
+width: 100%;
+margin-top: 50px;
+background-color: #003580;
+color: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+padding: 50px 0;
+}
+
+.inputContainer > input{
+    width: 300px;
+    height: 30px;
+    padding: 20px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.inputContainer > button {
+background-color: #0071c2;
+color: #fff;
+cursor: pointer;
+height: 40px;
+padding: 0 20px;
+border: none;
+font-weight: 500;
+border-radius: 5px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+ .inputContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+}

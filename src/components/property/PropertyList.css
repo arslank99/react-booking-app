@@ -1,0 +1,39 @@
+.pList {
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+ max-width: 1024px;
+ gap: 20px;
+}
+
+.PListItem{
+    flex: 1;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 250px;
+    cursor: pointer;
+}
+
+.PlistImg{
+  width: 100%;
+  object-fit: cover;
+}
+
+.pList h1 {
+    font-size: 20px;
+}
+.pList h2 {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+@media screen and (max-width: 700px) {
+  .pList {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+}

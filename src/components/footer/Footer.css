@@ -1,0 +1,40 @@
+.footer{
+    width: 100%;
+    max-width: 1024px;
+    font-size: 12px;
+}
+
+.Flists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.Flist{
+   list-style-type: none;
+   padding: 0; 
+}
+
+.FlistItem{
+    margin-bottom: 10px;
+    color: #003580;
+    cursor: pointer;
+}
+
+.Ftext{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+ 
+.Flists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+}
+
